@@ -1,6 +1,6 @@
 
 def hello(name: str):
-    print("Hello " + name + "! How are you?")
+    print("Hello " + name + "! How old are you?")
 
 
 if __name__ == "__main__":
