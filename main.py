@@ -1,8 +1,16 @@
 
 def hello(name: str):
-    print("Hello " + name + "! How old are you?")
+    return "Hello " + name + "!!! How old are you?"
+
+
+def test_hello():
+    name = "Dima"
+    expected = "Hello Dima! How are you?"
+    result = hello(name)
+    assert expected == result
+    print("Всё хорошо!")
+
 
 
 if __name__ == "__main__":
-    name = input("Введите имя: ")
-    hello(name)
+    test_hello()
