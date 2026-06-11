@@ -11,6 +11,9 @@ def test_hello():
     print("Всё хорошо!")
 
 
+def test2():
+    pass
+
 
 if __name__ == "__main__":
     test_hello()
